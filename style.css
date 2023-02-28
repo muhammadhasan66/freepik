@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(72, 109, 146);
+}
+.container {
+    color: white;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+li{
+    display: inline-block;
+    padding: 20px 20px;
+    /* padding-right: 25px; */
+}
+.logo {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    left: 30px;
+    top: 22px;
+}
+.brand-name {
+    font-size: xx-large;
+    position: absolute;
+    top: -8px;
+}
+.button {
+    color: white;
+    width: 75px;
+    height: 30px;
+    border: 2px solid white;
+    background-color: rgb(72, 109, 146);
+}
+.color-yellow {
+    color: rgb(170, 170, 36);
+}
+.logo-brand {
+    padding: 0px 40px;
+}
+.another-items {
+    padding: 0px 40px;
+}
+.d3d{
+    position: relative;
+    right: 13px;
+}
+.new {
+    height: 15px;
+    width: 30px;
+    font-size: x-small;
+    border: 0px solid white;
+    background-color: lightblue ;
+    position: absolute;
+    left: 510px;
+    top: 22px;
+}
+.heading {
+    text-align: center;
+    /* display: flex; */
+    /* justify-content: center; */
+    padding: 100px 0px;
+}
+.heading2 {
+    padding: 25px 0px;
+}
+.input-text {
+    text-align: center;
+    height: 100px;
+    
+}
