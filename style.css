@@ -3,53 +3,60 @@
     margin: 0;
     padding: 0;
 }
+/* this is the body */
 body{
-    background-color: rgb(72, 109, 146);
+    background-color: rgba(45, 84, 204, 255)   
 }
-.container {
+
+/* is ky oper bhi 1 main container hy */
+.blue-container {
     color: white;
 }
+/* ye ul navbar ki ul hy */
 ul{
     display: flex;
     justify-content: space-between;
 }
+.logo-brand {
+    padding: 0px 40px;
+}
+/* ye li all-items ki hy */
+
+.all-items li {
+    padding: 0px 30;
+}
+
 li{
     display: inline-block;
-    padding: 20px 20px;
+    padding: 20px 10px;
     /* padding-right: 25px; */
 }
-.logo {
-    height: 35px;
-    width: 35px;
-    position: absolute;
-    left: 30px;
-    top: 22px;
+.d3d{
+    position: relative;
+    right:5px;
 }
-.brand-name {
-    font-size: xx-large;
-    position: absolute;
-    top: -8px;
+
+/* ye SARI css IS --> another-items ki hy nechy sy */
+
+.another-items {
+    padding: 0px 40px;
 }
-.button {
+
+/* pricing ka color  */
+.color-yellow {
+    color: rgb(170, 170, 36);
+}
+
+/* ye button nav ky signup ka hy */
+
+.button-1 {
     color: white;
     width: 75px;
     height: 30px;
     border: 2px solid white;
-    background-color: rgb(72, 109, 146);
+    background-color: rgba(45, 84, 204, 255);
 }
-.color-yellow {
-    color: rgb(170, 170, 36);
-}
-.logo-brand {
-    padding: 0px 40px;
-}
-.another-items {
-    padding: 0px 40px;
-}
-.d3d{
-    position: relative;
-    right:18px;
-}
+
 .new {
     height: 15px;
     width: 30px;
@@ -57,15 +64,23 @@ li{
     border: 0px solid white;
     background-color: lightblue ;
     position: absolute;
-    left: 475px;
+    left: 495px;
     top: 22px;
 }
+
+/* YE Heading ki css hy is ky neechy
+is my h1 hy  */
+
 .heading {
     text-align: center;
     /* display: flex; */
     /* justify-content: center; */
     padding: 100px 0px;
 }
+
+/* YE Heading-2 ki css hy is ky neechy
+is my h2 hy  */
+
 .heading2 {
     padding: 25px 0px;
 }
@@ -75,5 +90,27 @@ li{
     
 }
 footer{
-    background-color:  rgb(53, 49, 49);
+    background-color:  rgb(8, 7, 7);
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10px;
+}
+h4 {
+    color: white;
+}
+p{
+    color: rgb(78, 83, 88); ;
+}
+.footer-button-signup {
+    background-color: #0d6efd;
+    color: white;
+    height: 45px;
+    width: 105px;
+    border-radius: 5px;
+}
+.icons {
+    padding: 0 10px;
+}
+.line {
+    color: white;
 }
