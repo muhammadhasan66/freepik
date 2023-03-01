@@ -85,21 +85,57 @@ is my h2 hy  */
     padding: 25px 0px;
 }
 .input-text {
-    text-align: center;
-    
+    justify-content: center;
+}
+.landscape-box {
+    width: 1000px;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+    left: 190px;
+    top: 280px;
     
 }
-footer{
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ye neechy sab foote may css hy */
+/* footer{
+    
+} */
+.main-footer {
+    height: 50vh;
     background-color:  rgb(8, 7, 7);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 30px 10px;
 }
+
 h4 {
     color: white;
 }
+
 p{
     color: rgb(78, 83, 88); ;
+}
+
+.icons li{
+    padding: 0 5px;
+    list-style: none;
+    text-decoration: none;
 }
 .footer-button-signup {
     background-color: #0d6efd;
@@ -108,9 +144,26 @@ p{
     width: 105px;
     border-radius: 5px;
 }
-.icons {
-    padding: 0 10px;
-}
 .line {
     color: white;
+}
+.last-lign {
+    /* padding: 0 0px; */
+    align-items: center;
+    background-color:rgb(8, 7, 7); 
+    display: flex;
+    justify-content: space-between;
+}
+
+.english-button {
+    height: 50px;
+    width: 100px;
+    color: white;
+    border: solid 1px white;
+    background-color:rgb(8, 7, 7); 
+    /* padding-left: 30px; */
+}
+.left {
+    padding: 10px 0;
+    padding-right: 650px;
 }
