@@ -48,7 +48,7 @@ li{
 }
 .d3d{
     position: relative;
-    right: 13px;
+    right:18px;
 }
 .new {
     height: 15px;
@@ -57,7 +57,7 @@ li{
     border: 0px solid white;
     background-color: lightblue ;
     position: absolute;
-    left: 510px;
+    left: 475px;
     top: 22px;
 }
 .heading {
@@ -71,6 +71,9 @@ li{
 }
 .input-text {
     text-align: center;
-    height: 100px;
     
+    
+}
+footer{
+    background-color:  rgb(53, 49, 49);
 }
