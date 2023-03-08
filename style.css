@@ -88,12 +88,18 @@ is my h2 hy  */
     justify-content: center;
 }
 .landscape-box {
-    width: 1000px;
+    width: 800px;
     height: 60px;
     background-color: white;
     position: absolute;
-    left: 190px;
-    top: 280px;
+    left: 275px;
+    top: 280px;   
+}
+.text-align-center {
+    display: inline-block;
+    padding:  50px;
+    margin: -30px;
+    
     
 }
 
